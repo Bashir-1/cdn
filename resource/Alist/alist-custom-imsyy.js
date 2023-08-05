@@ -68,7 +68,7 @@ const customFooter = (el) => {
   data-page-title="{{ PAGE_TITLE }}"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-</p><p><a href="//www.ncc17039.eu.org" target= "_blank">主站</a> |<a href="/@login" target= "_blank">登录 </a> |<a href="/@manage" target= "_blank">后台 </a> |<a href="mailto:Maxwell448844@outlook.com" target= "_blank">联系 </a> |<a href="https://docs.ncc17039.eu.org/data/policy-cn" target= "_blank">政策 </a> |<a href="https://docs.ncc17039.eu.org/data/Infringement-cn" target= "_blank">侵权反馈 </a></p></div>`;
+</p><p><a href="//www.ncc17039.eu.org" target= "_blank">主站</a> | <a href="/@login" target= "_blank">登录 </a> | <a href="/@manage" target= "_blank">后台 </a> | <a href="mailto:Maxwell448844@outlook.com" target= "_blank">联系 </a> | <a href="https://docs.ncc17039.eu.org/data/policy-cn" target= "_blank">政策 </a> | <a href="https://docs.ncc17039.eu.org/data/Infringement-cn" target= "_blank">侵权反馈 </a></p></div>`;
     }
   } catch (error) {
     console.error("页脚自定义出现问题：" + error);
