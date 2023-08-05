@@ -1,13 +1,10 @@
 /**
- * @fileoverview Alist 自定义脚本，由 imsyy 创作
+ * @fileoverview Alist 自定义脚本，由 imsyy 创作，NCC-17039修改
  * @version 1.0.4
  * @description 无侵入式修改 Alist，提供额外的样式和视觉增强效果
  *
  * @license MIT
  *
- * @author imsyy
- * @created 2023-06-28
- * @updated 2023-07-04
  *
  */
 
