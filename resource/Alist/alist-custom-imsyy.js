@@ -59,7 +59,16 @@ const observeElementChanges = (selector, callbacks, isStop = true) => {
 const customFooter = (el) => {
   try {
     if (el !== null) {
-      el.innerHTML = `<div class="custom-footer"><p><a href="//www.ncc17039.eu.org" target= "_blank">主站</a> |<a href="/@login" target= "_blank">登录 </a> |<a href="/@manage" target= "_blank">后台 </a> |<a href="mailto:Maxwell448844@outlook.com" target= "_blank">联系 </a> |<a href="https://docs.ncc17039.eu.org/data/policy-cn" target= "_blank">政策 </a> |<a href="https://docs.ncc17039.eu.org/data/Infringement-cn" target= "_blank">侵权反馈 </a></p></div>`;
+      el.innerHTML = `<div class="custom-footer">
+      <p><div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="c9dca8a3-248c-477e-a44f-8215665f6c17"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+</p><p><a href="//www.ncc17039.eu.org" target= "_blank">主站</a> |<a href="/@login" target= "_blank">登录 </a> |<a href="/@manage" target= "_blank">后台 </a> |<a href="mailto:Maxwell448844@outlook.com" target= "_blank">联系 </a> |<a href="https://docs.ncc17039.eu.org/data/policy-cn" target= "_blank">政策 </a> |<a href="https://docs.ncc17039.eu.org/data/Infringement-cn" target= "_blank">侵权反馈 </a></p></div>`;
     }
   } catch (error) {
     console.error("页脚自定义出现问题：" + error);
