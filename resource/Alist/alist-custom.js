@@ -56,7 +56,7 @@ const observeElementChanges = (selector, callbacks, isStop = true) => {
 const customFooter = (el) => {
   try {
     if (el !== null) {
-      el.innerHTML = `<a href="/@login" target= "_blank">登录 </a> | <a href="/@manage" target= "_blank">后台 </a> | <a href="mailto:ncc-17039@foxmail.com" target= "_blank">联系 </a> | <a href="https://spacemy.cn/agreement" target= "_blank">政策 </a> <p> <span>本站已稳定运行 <span id="sitetime" style="color: #0196e3;"></span></p> </p> <p><b>版权所有 © 2021-2023 NCC-17039</b></p></div>`;
+      el.innerHTML = `<p> <a href="/@login" target= "_blank">登录 </a> | <a href="/@manage" target= "_blank">后台 </a> | <a href="mailto:ncc-17039@foxmail.com" target= "_blank">联系 </a> | <a href="https://spacemy.cn/agreement" target= "_blank">政策 </a> <p> <span>本站已稳定运行 <span id="sitetime" style="color: #0196e3;"></span></p> </p> <p><b>版权所有 © 2021-2023 NCC-17039</b></p></div>`;
     }
   } catch (error) {
     console.error("页脚自定义出现问题：" + error);
